@@ -1,15 +1,8 @@
-https://usbereit.ieeesiberia.org/
+Data_processing/ - данные, их обработка и результаты
 
-A) IEEE Transactions on Industry Applications (Q1 on the SCOPUS, Q1 on the Web of science);
-B) IEEE Industry Applications Magazine (Q3 on the SCOPUS, Q4 on the Web of science).
+  Data_preprocessing/ - обработка сырых данны: создание отдельных файлов с профилями, зарядными/разрядными кривыми
 
-План:
+  Parameters/ - параметризация: определения статичных параметров (Q, eta, OCV(SOC)) и динамичных параметорв (R_0, R_i, tau_i)
 
-Сравнение профилей для параметризации ECM:
-Профили:
-1) Импульс 72s
-2) Импульс 144s
-3) Импульс 288s
-4) UDDS
-5) NEDC
-6) WLTC
+  Results/ - валидация, обработка результатов валидации
+
