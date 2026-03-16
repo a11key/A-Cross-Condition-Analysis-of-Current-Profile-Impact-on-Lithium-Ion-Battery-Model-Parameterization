@@ -1,8 +1,19 @@
-Data_processing/ - данные, их обработка и результаты
+## Project Structure
 
-  Data_preprocessing/ - обработка сырых данны: создание отдельных файлов с профилями, зарядными/разрядными кривыми
+### Data_processing/
+Contains the data, processing scripts, and results obtained during the analysis.
 
-  Parameters/ - параметризация: определения статичных параметров (Q, eta, OCV(SOC)) и динамичных параметорв (R_0, R_i, tau_i)
+#### Data_preprocessing/
+Preprocessing of raw data:
+- parsing raw datasets
+- creating separate files with battery profiles
+- extracting charge and discharge curves
 
-  Results/ - валидация, обработка результатов валидации
+#### Parameters/
+Parameterization of the battery model:
+- **Static parameters**: `Q`, `η`, `OCV(SOC)`
+- **Dynamic parameters**: `R₀`, `Rᵢ`, `τᵢ`
 
+#### Results/
+Validation and post-processing of validation results.
+Includes analysis, visualization, and evaluation of model performance.
